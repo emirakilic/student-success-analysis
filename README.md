@@ -1,4 +1,4 @@
-# Student Success Analysis System (SQL Server + Python)
+## Student Success Analysis System (SQL Server + Python)
 
 This project is a mini end-to-end data analysis pipeline built with **SQL Server** and **Python**.
 
@@ -7,15 +7,16 @@ It includes database design (tables, constraints, relationships), sample student
 ---
 
 ## Tech Stack
-- **SQL Server / SSMS**
-- **Python 3**
-- **pyodbc**
-- **pandas**
-- **matplotlib**
+- SQL Server / SSMS
+- Python 3
+- pyodbc
+- pandas
+- matplotlib
 
 ---
 
 ## Database Schema
+
 Tables:
 - `Students`
 - `Courses`
@@ -57,6 +58,10 @@ Generated charts:
 ### 1) Install dependencies
 ```bash
 pip install pyodbc pandas matplotlib
+
+### 2) Run analysis
+```bash
+python -u src/analysis.py
 
 ## Sample Visualizations
 
