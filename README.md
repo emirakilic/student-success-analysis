@@ -58,10 +58,12 @@ Generated charts:
 ### 1) Install dependencies
 ```bash
 pip install pyodbc pandas matplotlib
+``` 
 
 ### 2) Run analysis
 ```bash
 python -u src/analysis.py
+```
 
 ## Sample Visualizations
 
